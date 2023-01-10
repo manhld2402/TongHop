@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai 1</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="studenId">Ma sinh vien:</label>
+      <input type="text" id="studentId" placeholder="20170000" />
+      <label for="studentName">Ten sinh vien:</label>
+      <input type="text" id="studentName" placeholder="Nguyen Van A" />
+      <label for="studentAge">Tuoi sinh vien:</label>
+      <input type="number" id="studentAge" placeholder="23" />
+      <label for="sex">Gioi tinh</label>
+      <select id="sex">
+        <option value="yes">Nam</option>
+        <option value="no">Nu</option>
+      </select>
+      <label for="studentPhone">So dien thoai:</label>
+      <input type="number" id="studentPhone" placeholder="09xxxxxxxx" />
+      <label for="studentAddress">Dia chi sinh vien:</label>
+      <input type="text" id="studentAddress" placeholder="Toa nha Song Da" />
+      <button id="btnSubmit">Submit</button>
+    </form>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>STT</th>
+          <th>Mã sinh viên</th>
+          <th>Tên sinh viên</th>
+          <th>Tuổi sinh viên</th>
+          <th>Giới tính</th>
+          <th>Số điện thoại</th>
+          <th>Địa chỉ</th>
+          <th>Xử lý</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
